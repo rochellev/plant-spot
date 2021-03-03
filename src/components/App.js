@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-
+import PlantList from './PlantList'
 
 const App = () => {
   return(
     <div>
-      <div>hello world</div>
+      <PlantList />
     </div>
   )
 }
