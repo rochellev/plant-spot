@@ -2,11 +2,12 @@ import React from "react";
 import { connect } from "react-redux";
 import { selectPlantId } from "../actions";
 
-const PlantList = () => {
+const PlantList = ({plantList}) => {
   // const renderList = ()
   return (
     <div>
       <div>hello plant list</div>
+      <div>{JSON.stringify(plantList, null, 2)}</div>
     </div>
   );
 };
