@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# PlantSpot
+
+### Spot wild plants in your area with PlantSpot
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
